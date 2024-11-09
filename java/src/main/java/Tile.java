@@ -5,5 +5,9 @@ public class Tile
 {
     public int X;
     public int Y;
-    public char Symbol; // primitive obsession & shotgun surgery
+    public Symbol symbol; // primitive obsession & shotgun surgery
+
+    boolean isEmpty(){
+        return symbol == Symbol.EMPTY;
+    }
 }
