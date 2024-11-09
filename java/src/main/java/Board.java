@@ -20,6 +20,9 @@ public class Board
         }
     }
 
+    /**
+     * Data clump (x,y) -> Position
+     */
     public Tile TileAt(int x, int y)
     {
         for (Tile t : _plays) {
@@ -30,6 +33,10 @@ public class Board
         return null;
     }
 
+    /**
+     * Long parameter list
+     * Data clump (x,y) -> Position
+     */
     public void AddTileAt(char symbol, int x, int y)
     {
         Tile newTile = new Tile();
